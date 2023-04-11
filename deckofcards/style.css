@@ -1,0 +1,39 @@
+
+
+   body {
+    text-align: center;
+    background-color: rgb(118, 87, 190);
+  }
+  
+  button {
+    padding: 15px;
+    background-color: rgb(121, 39, 39);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    display: none;
+    margin: 100px auto;
+    /* margin-top: 100px; */
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: #444;
+  }
+  
+  button:active,
+  button:focus {
+    outline: none;
+  }
+  
+  #card-container {
+    margin-top: 180px;
+  }
+  
+  #card-container > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+  
